@@ -9,5 +9,5 @@ class Post(models.Model):
     Date_Posted = models.DateTimeField(default=timezone.now)
     Author = models.ForeignKey(User, on_delete=models.CASCADE)
 
-    def __str__(self):
+    def __str__(self):  # ---> __str__ is dunder. dunder -> double underscore
         return self.Title
