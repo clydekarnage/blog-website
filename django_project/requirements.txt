@@ -98,7 +98,7 @@ psycopg2==2.8.3
 pycodestyle==2.5.0
 pycparser==2.19
 pygame==1.9.6
-Pygments==2.5.2
+Pygments==2.7.4
 PyInstaller==3.5
 pylint==2.3.1
 pyOpenSSL==19.1.0
